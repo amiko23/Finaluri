@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <activity
+        android:id="@+id/profileActivity"
+        android:name="com.example.myapplication.ProfileActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.myapplication.LoginActivity"
+        android:label="activity_registration"
+        tools:layout="@layout/activity_registration" />
+    <activity
+        android:id="@+id/resetPasswordActivity"
+        android:name="com.example.myapplication.ResetPasswordActivity"
+        android:label="activity_reset_password"
+        tools:layout="@layout/activity_reset_password" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.fragments.HomeFragment"
+        android:label="HomeFragment" />
+    <activity
+        android:id="@+id/changePasswordActivity"
+        android:name="com.example.myapplication.ChangePasswordActivity"
+        android:label="activity_change_password"
+        tools:layout="@layout/activity_change_password" />
+    <activity
+        android:id="@+id/registrationActivity"
+        android:name="com.example.myapplication.RegistrationActivity"
+        android:label="RegistrationActivity" />
+</navigation>
