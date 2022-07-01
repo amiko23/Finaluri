@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Finaluri/app/src/main/res/layout/activity_change_password.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Finaluri/app/src/main/res/layout/activity_reset_password.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/axosi/MyApplication6/app/src/main/res/layout/activity_login.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/axosi/MyApplication6/app/src/main/res/layout/activity_main.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/axosi/MyApplication6/app/src/main/res/layout/activity_registration.xml" value="0.17255434782608695" />
